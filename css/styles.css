@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --red-color: #F03C42;
+    --yellow-color: #FFF964;
+    --black-text-color: #5E5E5E;
+    --green-price-color: #02B814;
+    --white-background-color: #FFFFFF;
+    --gray-background-color: #E5E5E5;
+}
+
+.bg-gray {
+    background-color: var(--gray-background-color);
+}
+
+.bg-white {
+    background-color: var(--white-background-color);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--red-color);
+    min-height: 70px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: var(--yellow-color);
+    font-size: 24px;
+}
+
+.generic-section {
+    padding: 20px 15px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.card-pizza {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+}
+
+.card-pizza img {
+    width: 200px;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.card-pizza-info {
+    padding: 15px;
+    width: 100%;
+    background-color: var(--white-background-color);
+    border-radius: 0px 12px 12px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-pizza-info h2 {
+    color: var(--black-text-color);
+}
+
+.card-pizza-info p {
+    font-size: 14px;
+    color: var(--black-text-color);
+}
+
+.card-pizza h3 {
+    font-size: 24px;
+    color: var(--green-price-color);
+}
+
+.title-comment-container h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    color: var(--black-text-color);
+    font-size: 32px;
+}
+
+.card-comment {
+    background-color: var(--yellow-color);
+    margin: 20px 0px 20px 0px;
+    padding: 25px 20px;
+    border-radius: 12px;
+}
+
+.card-comment p {
+    color: var(--red-color);
+}
+
+footer {
+    padding: 0px 15px 0px 15px;
+    min-height: 120px;
+    background-color: var(--red-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.footer-media a {
+    color: var(--yellow-color);
+    text-decoration: none;
+}
+
+.footer-address {
+    color: var(--yellow-color);
+}
+
